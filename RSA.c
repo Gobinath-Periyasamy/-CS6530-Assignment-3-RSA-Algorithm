@@ -141,11 +141,11 @@ int main()
 //Calculating N from p and q, N = p*q
 
     unsigned long long int N = p*q;
-    printf("N : %d \n", N);
+
 
 //Calculating phi_N from p-1 and q-1, phi_N = p*q
     unsigned long long int phi_N = (p-1)*(q-1);
-    printf("phi_N : %d \n", phi_N);
+
 
 //Selecting e randomly such that 1 < e < phi_n
     int flag = 1;
@@ -157,10 +157,10 @@ int main()
             flag = 0;
 
     }
-    printf("e : %d \n", e);
+    
 
     unsigned long long int d = modInverse(e,phi_N);
-    printf("d : %d \n",d);
+    
 
     //unsigned long long int message = 12345;
 
@@ -199,13 +199,17 @@ int main()
 
     // Decrypt using Modular Arithmetic:
     message = power(c,d,N);
-        printf("p : %d \n", p);
+    printf("p : %d \n", p);
     printf("q : %d \n", q);
-    printf("Original message by Normal Method: %d \n",message);
+    printf("N : %d \n", N);
+    printf("phi_N : %d \n", phi_N);
+    printf("e : %d \n", e);
+    printf("d : %d \n",d);
+    printf("Original message by Normal Mod Exp Method: %d \n",message);
 
 	end = clock();
-	cpu_time_used = ((double) (end-start)) / CLOCKS_PER_SEC;
-	printf("The total time taken by Normal method is : %lf s\n",cpu_time_used);
+	cpu_time_used = ((double) (end-start));
+	printf("The total time taken by Normal Mod Exp method is : %lf s\n",cpu_time_used);
 
 
 
@@ -247,10 +251,10 @@ int main()
             // message = chineseremaindertheorem(dq, dp, p, q, c); 
             message = m;
 
-            printf("CRT Original message : %d \n",message);
+            printf("Original message by Chinese Remainder Theorem: %d \n",message);
             //int d = inv_e % phi_N;
 	end = clock();
-	cpu_time_used = ((double) (end-start)) / CLOCKS_PER_SEC;
-	printf("The total time taken by CRT method is : %lf s\n",cpu_time_used);
+	cpu_time_used = ((double) (end-start)) ;
+	printf("The total time taken by Chinese Remainder Theorem method is : %lf s\n",cpu_time_used);
     return 0;
 }
