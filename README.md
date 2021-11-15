@@ -24,32 +24,31 @@ And the approx time to calculate them will be displayed.
 Sample Ouput:
 
 
-E:\IIT Sem\Cryptography Basics\Assignment 3>rsa.exe
+E:\IIT CS Prep\IIT Sem\Cryptography Basics\Rough Assignment 3>rsa.exe
 
-N : 94792163
+N : 90337253
 
-phi_N : 94772688
+phi_N : 90318240
 
-e : 7489
+e : 14629
 
-d : 59174401
+d : 77661709
 
-Enter the message :98765
+Enter the message :4758
 
-Cipher message : 47431716
+Cipher message : 88908027
 
-p : 9929
+p : 9721
 
-q : 9547
+q : 9293
 
-Original message by Normal Method: 98765
+Original message by Normal Method: 4758
 
-The total time taken by Normal method is : 0.004000 s
+The total time taken by Normal method is : 3.000000 s
 
-q value : 9547
+CRT Original message : 4758
 
-CRT Original message : 98765
+The total time taken by CRT method is : 1.000000 s
 
-The total time taken by CRT method is : 0.002000 s
 
 E:\IIT CS Prep\IIT Sem\Cryptography Basics\Rough Assignment 3>
