@@ -23,32 +23,28 @@ And the approx time to calculate them will be displayed.
 
 Sample Ouput:
 
+E:\IIT Sem\Cryptography Basics\Assignment 3>rsa.exe
 
-E:\IIT CS Prep\IIT Sem\Cryptography Basics\Rough Assignment 3>rsa.exe
+Enter the message :9876
 
-N : 90337253
+Cipher message : 33001235
 
-phi_N : 90318240
+p : 9833
 
-e : 14629
+q : 9437
 
-d : 77661709
+N : 92794021
 
-Enter the message :4758
+phi_N : 92774752
 
-Cipher message : 88908027
+e : 29633
 
-p : 9721
+d : 47146593
 
-q : 9293
+Original message by Normal Mod Exp Method: 9876
 
-Original message by Normal Method: 4758
+The total time taken by Normal Mod Exp method is : 4.000000 s
 
-The total time taken by Normal method is : 3.000000 s
+Original message by Chinese Remainder Theorem: 31604952
 
-CRT Original message : 4758
-
-The total time taken by CRT method is : 1.000000 s
-
-
-E:\IIT CS Prep\IIT Sem\Cryptography Basics\Rough Assignment 3>
+The total time taken by Chinese Remainder Theorem method is : 1.000000 s
