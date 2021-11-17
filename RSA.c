@@ -255,5 +255,6 @@ uint64_t main()
 	end = clock();
 	cpu_time_used = ((double) (end-start)) ;
 	printf("The total time taken by Chinese Remainder Theorem method is : %lf s\n",cpu_time_used);
+	system("pause");
     return 0;
 }
