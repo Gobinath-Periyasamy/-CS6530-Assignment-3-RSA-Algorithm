@@ -45,6 +45,40 @@ Original message by Normal Mod Exp Method: 9876
 
 The total time taken by Normal Mod Exp method is : 4.000000 s
 
-Original message by Chinese Remainder Theorem: 31604952
+Original message by Chinese Remainder Theorem: 9876
 
 The total time taken by Chinese Remainder Theorem method is : 1.000000 s
+
+
+Sample Output 2:
+
+
+E:\IIT Sem\Cryptography Basics\Assignment 3>gcc -o rsa.exe RSA.c
+
+E:\IIT Sem\Cryptography Basics\Assignment 3>rsa.exe
+
+
+Enter the Numerical message :6354728
+
+Cipher message : 27537680
+
+p : 18313
+
+q : 10631
+
+N : 194685503
+
+phi_N : 194656560
+
+e : 12889
+
+d : 87428569
+
+Original message by Normal Mod Exp Method: 6354728
+
+The total time taken by Normal Mod Exp method is : 3.000000 s
+
+Original message by Chinese Remainder Theorem: 6354728
+
+The total time taken by Chinese Remainder Theorem method is : 1.000000 s
+
