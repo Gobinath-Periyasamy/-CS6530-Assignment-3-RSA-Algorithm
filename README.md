@@ -25,7 +25,11 @@ Sample Ouput:
 
 E:\IIT Sem\Cryptography Basics\Assignment 3>rsa.exe
 
-Enter the message :9876
+Please wait while selecting p and q values from Random Prime...
+
+Thanks for waiting.
+
+Please Enter the message :9876
 
 Cipher message : 33001235
 
@@ -58,27 +62,30 @@ E:\IIT Sem\Cryptography Basics\Assignment 3>gcc -o rsa.exe RSA.c
 E:\IIT Sem\Cryptography Basics\Assignment 3>rsa.exe
 
 
-Enter the Numerical message :6354728
+Please wait while selecting p and q values from Random Prime...
 
-Cipher message : 27537680
+Thanks for waiting.
 
-p : 18313
+Please Enter the Numerical message :464732
 
-q : 10631
+Cipher message : 756086553
 
-N : 194685503
+p : 30941
 
-phi_N : 194656560
+q : 32309
 
-e : 12889
+N : 999672769
 
-d : 87428569
+phi_N : 999609520
 
-Original message by Normal Mod Exp Method: 6354728
+e : 13669
 
-The total time taken by Normal Mod Exp method is : 3.000000 s
+d : 936937389
 
-Original message by Chinese Remainder Theorem: 6354728
+Original message by Normal Mod Exp Method: 464732
+
+The total time taken by Normal Mod Exp method is : 6.000000 s
+
+Original message by Chinese Remainder Theorem: 464732
 
 The total time taken by Chinese Remainder Theorem method is : 1.000000 s
-
