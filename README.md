@@ -12,7 +12,8 @@ Registered Mail id : janu.gobi@gmail.com
 Steps to Execute the Program:
 
 1. To open the rsa.exe file.
-2. To input the message Eg : 3456, 8986, 9876, 67895
+2. To wait for few seconds while choosing p,q from random prime.
+3. To input the message Eg : 3456, 8986, 9876, 67895
 
 It will automatically choose random p, q values.
 
