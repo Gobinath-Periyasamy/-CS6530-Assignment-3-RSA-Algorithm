@@ -180,23 +180,7 @@ uint64_t main()
     printf("Thanks for waiting. \nPlease Enter the Numerical message :");
     scanf("%ld",&message);
 
-            // Chinese Remainder Theorem set :
-            // uint64_t m1_inv = modInverse(q, p);
-            // uint64_t m2_inv = modInverse(p, q);
-
-            // uint64_t c1 = q * (modInverse(q, p)%p);
-            // uint64_t c2 = p * (modInverse(p, q)%q);
-
-            // uint64_t dp = d % (p-1);
-            // uint64_t dq = d % (q-1);
-            // uint64_t q_inv = q % (q-1);
-
-            // uint64_t fin_qinv = q_inv % p;
-
-            // uint64_t x_qvalue = p * (p_inv % q);
-
-
-            
+           
             uint64_t dq = power(d, 1, (q-1));
             uint64_t dp = power(d, 1, (p-1));
             
